@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash -xe
 javac Collatz.java
 java Collatz $@ > g.dot
 dot -Tpng g.dot -o g.png
