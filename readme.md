@@ -13,3 +13,5 @@ Alternatively run the following commands, plugging in whatever number you like t
     javac Collatz.java
     java Collatz 100 > g.dot
     dot -Tpng g.dot -o g.png
+
+Either method generates an image file `g.png` with your graph.
