@@ -1,5 +1,5 @@
 #!/bin/bash -xe
-javac Collatz.java
-java Collatz $@ > g.dot
+javac collatz.java
+java Main $1 $2 > g.dot
 dot -Tpng g.dot -o g.png
 eog g.png
